@@ -1,0 +1,46 @@
+Get-Process
+
+Get-Process | Format-Wide
+
+Get-Process | Format-Wide -column 1  (also 2,3,4,5,...)
+
+------------------------------------------------------------------------------
+
+Get-Process | Format-List
+
+Get-Process -Name powershell | Format-List
+
+(you can specify properties to be included):
+Get-Process -Name powershell | Format-List -Property ProcessName,FileVersion,StartTime,Id
+
+(wildcard can be used to view all properties)
+Get-Process -Name powershell | Format-List -Property *
+
+------------------------------------------------------------------------------------
+
+Get-Process | Format-Table
+
+Get-Process -Name powershell | Format-Table
+
+(Note that data often gets truncated)
+Get-Process -Name powershell | Format-Table -Property Path,Name,Id,Company
+
+(The Autosize parameter displays as much info as possible beginning
+with the leftmost columns)
+Get-Process -Name powershell | Format-Table -Property Path,Name,Id,Company -AutoSize
+
+(To see more of a certain column, move it to the left)
+Get-Process -Name powershell | Format-Table -Property Company,Name,Id,Path -AutoSize
+
+(The Wrap parameter will prevent truncated data)
+Get-Process -Name powershell | Format-Table -Wrap -Property Name,Id,Company,Path
+
+(The GroupBy parameter groups output based on a property value)
+Get-Process -Name powershell | Format-Table -Wrap -AutoSize -Property Name,Id,Path -GroupBy Company
+
+
+
+
+
+
+

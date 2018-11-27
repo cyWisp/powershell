@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\fnil\fcharset0 Calibri;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs40 \cf0 There are a few options for writing data to files:\
+\
+By using the > redirection operator:\
+\pard\pardeftab720
+
+\f1\fs36 \cf0 get-childitem > c:\\testGCI.txt\
+\
+
+\fs24 \
+\pard\pardeftab720
+
+\f0\fs40 \cf0 By using the New-Item cmdlet to create an empty file:\
+\pard\pardeftab720
+
+\f1\fs36 \cf0 new-item c:\\newitemtest.txt -type file\
+\
+
+\fs24 \
+\pard\pardeftab720
+
+\f0\fs40 \cf0 The Set-Content cmdlet will overwrite and replace data already in the file:\
+\pard\pardeftab720
+
+\f1\fs36 \cf0 Set-Content C:\\newitemtest.txt "It was the worst of times...\'93\
+Set-Content C:\\newitemtest.txt "It was the best of times...\'93\
+\
+\
+The Add-Content cmdlet will append data to a file:\
+Add-Content C:\\newitemtest.txt "It was the worst of times...\'93\
+\
+\
+We can pipe data to the Out-File cmdlet (this will overwrite an existing file):\
+ gci | Out-File c:\\mltest.txt\
+\
+\
+Use Get-Content cmdlet to read data from a file:\
+Get-Content C:\\MLtest.ext\
+\
+\
+}

@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs33 \cf0 Working with Files and Folders Examples:\
+\
+Listing All the Files and Folders Within a Folder:\
+Get-ChildItem -Force C:\\       (-force causes hidden or system files to appear)\
+Get-ChildItem -Force C:\\ -Recurse\
+\
+\
+Find specific files based on last modified date:\
+Get-ChildItem -Path "C:\\Program Files" -Recurse -Include *.exe | Where-Object -FilterScript \{($_.LastWriteTime -gt "2014-04-01")\}\
+\
+\
+
+\fs34 Script to find files in specified folder based on last modified data and time:\
+------------------------------------------------------------------------------------------\
+Param(\uc0\u8232 [Parameter(Mandatory=$true)]\u8232 [string]$Path,\
+\uc0\u8232 [Parameter(Mandatory=$true)]\u8232 [Datetime]$LastWrite\u8232 )\
+gci $Path | Where-object -FilterScript \{($_.LastWriteTime -gt $LastWrite)\}\
+------------------------------------------------------------------------------------------\
+\
+\
+\
+
+\fs33 Copy a folder and it\'92s contents:\
+NOTE: You must first create a c:\\temp folder and another folder inside and place a couple of files in each folder\
+\
+copy-item -recurse c:\\temp c:\\ML   }
