@@ -1,9 +1,0 @@
-Enable-ExchangeCertificate -ThumbPrint 51775AB178D33D9B4E13CBEF3C0D5187783CC5CF -Services "SMTP, IMAP, POP, IIS"
-
-Get-ReceiveConnector |where {$_.TlsDomainCapabilities -like "*MSIT Machine Auth CA 2*"} 
-
-<I>CN=MSIT Machine Auth CA 2, DC=Redmond, DC=corp, DC=microsoft, DC=com... 
-
-
-$rc=Get-ReceiveConnector |where {$_.TlsDomainCapabilities -like "*MSIT Machine Auth CA 2*"} 
-$rc | foreach {Set-ReceiveConnector -Identity $_.identity -TlsDomainCapabilities "mail.protection.outlook.com:AcceptCloudServicesMail”} 
