@@ -1,0 +1,15 @@
+Set-ItemProperty -Path HKCU:\console -Name WindowAlpha -Value 225
+
+write-host("`t      ________            _____    ")
+write-host("`t______\_____  \  ____    /     \   ")
+write-host("`t\_  __ \_(__  < /    \  /  \ /  \  ")
+write-host("`t |  | \/       \   |  \/    Y    \ ")
+write-host("`t |__| /______  /___|  /\____|__  / ")
+write-host("`t             \/     \/         \/  `n`n")
+
+
+function prompt
+{
+    Write-Host ("|wisp|:") -nonewline -foregroundcolor Green
+    return " "
+}
