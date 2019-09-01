@@ -1,0 +1,17 @@
+telnet
+ticense manager
+spooler
+dhcp
+dns
+wins
+ftp
+terminal services
+iis
+www
+fax
+messenger Service
+smtp
+snmptrap
+sophos anti-virus
+cylance protect
+routing and remote access
