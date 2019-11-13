@@ -1,15 +1,16 @@
 Set-ItemProperty -Path HKCU:\console -Name WindowAlpha -Value 225
 
-write-host("`t      ________            _____    ")
-write-host("`t______\_____  \  ____    /     \   ")
-write-host("`t\_  __ \_(__  < /    \  /  \ /  \  ")
-write-host("`t |  | \/       \   |  \/    Y    \ ")
-write-host("`t |__| /______  /___|  /\____|__  / ")
-write-host("`t             \/     \/         \/  `n`n")
-
-
+write-host("`t          ____ .________       ")
+write-host("`t __  _  _/_   ||   ____/_____  ")
+write-host("`t \ \/ \/ /|   ||____  \\____ \ ")
+write-host("`t  \     / |   |/       \  |_> >")
+write-host("`t   \/\_/  |___/______  /   __/ ")
+write-host("`t                     \/|__|    `n")
+write-host("`t|HACKING THE PLANET SINCE 2014|`n")
+write-host("-----------------------------------------------")
 function prompt
 {
-    Write-Host ("|wisp|:") -nonewline -foregroundcolor Green
+    $hostname = hostname
+    Write-Host ("wisp@$($hostname):$") -nonewline -foregroundcolor Green
     return " "
 }
