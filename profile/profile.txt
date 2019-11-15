@@ -11,6 +11,13 @@ write-host("-----------------------------------------------")
 function prompt
 {
     $hostname = hostname
-    Write-Host ("wisp@$($hostname):$") -nonewline -foregroundcolor Green
+    $whoami = whoami
+    $username = @()
+    
+    foreach($s in $whoami -split "\\"){
+    	$username += $s
+    }
+
+    Write-Host ("$($username[1])@$($hostname):$") -nonewline -foregroundcolor Green
     return " "
 }
