@@ -1,0 +1,6 @@
+12.23.12.32, TCP, 22, 23:sd:23:34:34:34, SSH, someMachine.domain.com, domain\someMachine
+
+12.23.43.11, TCP, 21, 23:sd:as:34:sd:34, FTP, anotherMachine.domain.com, domain\anotherMachine
+
+12.22.33.44, TCP, 135, 23:sd:23:22:sd:d4, SMB, myMachine.domain.com, domain\myMachine
+
