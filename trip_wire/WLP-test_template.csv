@@ -1,0 +1,79 @@
+Windows, TCP, 22, sshd,Cryptographic network protocol for operating network services securely over a network, Utilized by support personnel to connect to and configure server, IANA - Service Name and Transport Protocol Port Number Registry.pdf
+
+Windows, TCP, 111, portmap,Open Network Computing Remote Procedure Call (ONC RPC; sometimes referred to as Sun RPC), Tells the port mapper what port number it is using for a particular program number/version number pair on that transport protocol, IBM Knowledge Center - Ports usage.pdf
+
+Windows, UDP, 111, portmap,Open Network Computing Remote Procedure Call (ONC RPC; sometimes referred to as Sun RPC), Tells the port mapper what port number it is using for a particular program number/version number pair on that transport protocol, IBM Knowledge Center - Ports usage.pdf
+
+Windows, UDP, 123, xntpd,Network Time Protocol, Network Time Protocol keeps devices date and time synchronized to an NTP server, NTP Protocol Port Number Registry.pdf
+
+Windows, UDP, 161, snmpdv3ne,Receives; authenticates; and processes SNMP requests from manager applications, Used to manage and monitor network devices and their functions, IBM Knowledge Center - snmpdv3-snmpdv3ne.pdf
+
+Windows, TCP, 199, snmpdv3ne,Receives; authenticates; and processes SNMP requests from manager applications, Used to manage and monitor network devices and their functions, IBM Knowledge Center - Ports usage.pdf
+
+Windows, UDP, 514, syslogd,Daemon to capture all logs generated, Used to capture all logs generated and sends each message line to a destination described by the /etc/syslog.conf configuration file, IBM_AIX_Syslog_TCPPorts_Evd.pdf
+
+Windows, TCP, 657, rmcd,IBM RMC (Remote monitoring and Control) protocol, Used by System IBM systems  to enable dynamic partition reconfiguration, HMCInstOpsGuide.pdf
+
+Windows, UDP, 657, rmcd,IBM RMC (Remote monitoring and Control) protocol, Used by System IBM systems  to enable dynamic partition reconfiguration, HMCInstOpsGuide.pdf
+
+Windows, TCP, 1521, tnslsnr,Oracle database client connection port, Enable remote clinets connections query to oracle databases, Oracle Database Installation Guide.pdf
+
+Windows, TCP, 1556, pbx_excha,Netbackup daemon, Needed to backup servers, NetBackup 6.x and 7.x and 8.x firewall port requirements.pdf
+
+Windows, TCP, 1830, java,Enterprise Manager Database Control Agent, HTTP port for Enterprise Management Agent. , Oracle Database Installation Guide.pdf
+
+Windows, UDP, 2279, xmquery,AIX performance tool, Monitor the prformance of the AIX operating system, IBM Knowledge Center - Ports usage.pdf
+
+Windows, TCP, 3901, nimsh,AIX Network Installation Manager NIM, AIX NIM is used for systems configuratio over the network, IBM NIM Communication within a Firewall Environment.pdf
+
+Windows, TCP, 5335, java,IBM Systems Director Java Process, IBM Systems Director provides consistent views for viewing managed systems, determining how these systems relate to one another, and identifying their statuses, IBM Installing Systems Director Console for AIX.pdf
+
+Windows, TCP, 5336, java,IBM Systems Director Java Process, IBM Systems Director provides consistent views for viewing managed systems, determining how these systems relate to one another, and identifying their statuses, IBM Installing Systems Director Console for AIX.pdf
+
+Windows, TCP, 6174, clinfo,Clinfo is a cluster monitoring program. It requests information about the current cluster state from the Cluster Manager, PowerHA high availability clustering. Primary and backup server protection., Configuring PowerHA SystemMirror with IP security filter rules.pdf
+
+Windows, UDP, *, clinfo,Clinfo is a cluster monitoring program. It requests information about the current cluster state from the Cluster Manager, PowerHA high availability clustering. Primary and backup server protection., Configuring PowerHA SystemMirror with IP security filter rules.pdf
+
+Windows, UDP, 6178, hats_nim,Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+Windows, UDP, 6179, hagsd,Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+Windows, UDP, 6180, haemd,Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+Windows, TCP, 6191, clcomd,Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+Windows, TCP, 8192, mrouter.0,Sophos Antivirus, Allow Remote Management Systems (RMS) to communciate to Sophos clients, Summary of port configurations in Sophos applications.pdf
+
+Windows, TCP, 8193, mrouter.0,Sophos Antivirus, Allow Remote Managm,ent Systems (RMS) to communciate to Sophos clients, Summary of port configurations in Sophos applications.pdf
+
+Windows, TCP, 8194, mrouter.0,Sophos Antivirus, Allow Remote Managm,ent Systems (RMS) to communciate to Sophos clients, Summary of port configurations in Sophos applications.pdf
+
+Windows, TCP, 9090, inetd,AIX remote web console, Manges AIX via remote console on http, IBM WebSM-9090.pdf
+
+Windows, TCP, 13724, vnetd,Netbackup daemon, Needed to backup servers, NetBackup 6.x and 7.x and 8.x firewall port requirements.pdf
+
+Windows, TCP, 13782, bpcd,Netbackup daemon, Needed to backup servers, NetBackup 6.x and 7.x and 8.x firewall port requirements.pdf
+
+Windows, TCP, 28002, avagent.b,Avamar Backup daemons, Avamar Backlup client to backup servers, Avamar Port Requirement.pdf
+
+Windows, TCP, 32768, snmpdv3ne,Receives; authenticates; and processes SNMP requests from manager applications, Used to manage and monitor network devices and their functions, IBM Knowledge Center - Ports usage.pdf
+
+Windows, UDP, 32772, portmap,Open Network Computing Remote Procedure Call (ONC RPC; sometimes referred to as Sun RPC), Tells the port mapper what port number it is using for a particular program number/version number pair on that transport protocol, IBM Knowledge Center - Ports usage.pdf
+
+Windows, TCP, 32768-65535, rpc.statd,Provides crash and recovery functions for the locking services on NFS, Needed to mount NFS fielsystems, IBM Knowledge Center - rpc.statd
+
+Windows, UDP, 32768-65535, rpc.statd,Provides crash and recovery functions for the locking services on NFS, Needed to mount NFS fielsystems, IBM Knowledge Center - rpc.statd
+
+Windows, UDP, 32768-65536, syslogd,Daemon to capture all logs generated, Used to capture all logs generated and sends each message line to a destination described by the /etc/syslog.conf configuration file, IBM Case TS001908079 Syslog.pdf
+
+Windows, UDP, 32765-65535, clinfo,Clinfo is a cluster monitoring program. It requests information about the current cluster state from the Cluster Manager, PowerHA high availability clustering. Primary and backup server protection., IBM PowerHA SystemMirror for AIX Cookbook.pdf
+
+Windows, UDP, 32765-65535, hatsd,Cluster heartbeat, PowerHA provides High Availability between servers, IBM PowerHA for AIX Cookbook.pdf
+
+Windows, UDP, 32765-65535, oracle,Oracle ephemeral port, an ephemeral port number is assigned temporarily (for the duration of the request and its completion) from a range of assigned port numbers., Oracle Database Installation Guide for IBM AIX on POWER Systems (64-Bit)
+
+
+Windows, TCP, 47632, java (oracle),Java Oracle Agent (Oracle ephemeral port), Monitors  Oracle Databases (an ephemeral port number is assigned temporarily (for the duration of the request and its completion) from a range of assigned port numbers.), Oracle Enterprise Manager Doc ID 1474263.1.pdf
+
+Windows, UDP, 52311, BESClient,BigFix Client., BigFix Client is usedo register servers to ITAM, IBM Support - BigFix Clients ports.pdf
+

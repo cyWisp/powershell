@@ -1,0 +1,85 @@
+TCP, 22, Cryptographic network protocol for operating network services securely over a network, Utilized by support personnel to connect to and configure server, IANA - Service Name and Transport Protocol Port Number Registry.pdf
+
+TCP, 111, Open Network Computing Remote Procedure Call (ONC RPC; sometimes referred to as Sun RPC), Tells the port mapper what port number it is using for a particular program number/version number pair on that transport protocol, IBM Knowledge Center - Ports usage.pdf
+
+UDP, 111, Open Network Computing Remote Procedure Call (ONC RPC; sometimes referred to as Sun RPC), Tells the port mapper what port number it is using for a particular program number/version number pair on that transport protocol, IBM Knowledge Center - Ports usage.pdf
+
+UDP, 123, Network Time Protocol, Network Time Protocol keeps devices date and time synchronized to an NTP server, NTP Protocol Port Number Registry.pdf
+
+UDP, 161, Receives; authenticates; and processes SNMP requests from manager applications, Used to manage and monitor network devices and their functions, IBM Knowledge Center - snmpdv3-snmpdv3ne.pdf
+
+TCP, 199, Receives; authenticates; and processes SNMP requests from manager applications, Used to manage and monitor network devices and their functions, IBM Knowledge Center - Ports usage.pdf
+
+UDP, 514, Daemon to capture all logs generated, Used to capture all logs generated and sends each message line to a destination described by the /etc/syslog.conf configuration file, IBM_AIX_Syslog_TCPPorts_Evd.pdf
+
+TCP, 657, IBM RMC (Remote monitoring and Control) protocol, Used by System IBM systems  to enable dynamic partition reconfiguration, HMCInstOpsGuide.pdf
+
+UDP, 657, IBM RMC (Remote monitoring and Control) protocol, Used by System IBM systems  to enable dynamic partition reconfiguration, HMCInstOpsGuide.pdf
+
+TCP, 1521, Oracle database client connection port, Enable remote clinets connections query to oracle databases, Oracle Database Installation Guide.pdf
+
+TCP, 1556, Netbackup daemon, Needed to backup servers, NetBackup 6.x and 7.x and 8.x firewall port requirements.pdf
+
+TCP, 1830, Enterprise Manager Database Control Agent, HTTP port for Enterprise Management Agent. , Oracle Database Installation Guide.pdf
+
+UDP, 2279, AIX performance tool, Monitor the prformance of the AIX operating system, IBM Knowledge Center - Ports usage.pdf
+
+TCP, 3901, AIX Network Installation Manager NIM, AIX NIM is used for systems configuratio over the network, IBM NIM Communication within a Firewall Environment.pdf
+
+TCP, 5335, IBM Systems Director Java Process, IBM Systems Director provides consistent views for viewing managed systems, determining how these systems relate to one another, and identifying their statuses, IBM Installing Systems Director Console for AIX.pdf
+
+TCP, 5336, IBM Systems Director Java Process, IBM Systems Director provides consistent views for viewing managed systems, determining how these systems relate to one another, and identifying their statuses, IBM Installing Systems Director Console for AIX.pdf
+
+TCP, 6174, Clinfo is a cluster monitoring program. It requests information about the current cluster state from the Cluster Manager, PowerHA high availability clustering. Primary and backup server protection., Configuring PowerHA SystemMirror with IP security filter rules.pdf
+
+UDP, *, Clinfo is a cluster monitoring program. It requests information about the current cluster state from the Cluster Manager, PowerHA high availability clustering. Primary and backup server protection., Configuring PowerHA SystemMirror with IP security filter rules.pdf
+
+UDP, 6178, Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+UDP, 6179, Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+UDP, 6180, Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+TCP, 6191, Ports and protocols used by the PowerHA® SystemMirror® components, PowerHA provides High Availability between servers, IBM Knowledge Center - PowerHA ports.pdf
+
+TCP, 8192, Sophos Antivirus, Allow Remote Management Systems (RMS) to communciate to Sophos clients, Summary of port configurations in Sophos applications.pdf
+
+TCP, 8193, Sophos Antivirus, Allow Remote Managm,ent Systems (RMS) to communciate to Sophos clients, Summary of port configurations in Sophos applications.pdf
+
+TCP, 8194, Sophos Antivirus, Allow Remote Managm,ent Systems (RMS) to communciate to Sophos clients, Summary of port configurations in Sophos applications.pdf
+
+TCP, 9090, AIX remote web console, Manges AIX via remote console on http, IBM WebSM-9090.pdf
+
+TCP, 13724, Netbackup daemon, Needed to backup servers, NetBackup 6.x and 7.x and 8.x firewall port requirements.pdf
+
+TCP, 13782, Netbackup daemon, Needed to backup servers, NetBackup 6.x and 7.x and 8.x firewall port requirements.pdf
+
+TCP, 28002, Avamar Backup daemons, Avamar Backlup client to backup servers, Avamar Port Requirement.pdf
+
+TCP, 32768, Receives; authenticates; and processes SNMP requests from manager applications, Used to manage and monitor network devices and their functions, IBM Knowledge Center - Ports usage.pdf
+
+UDP, 32772, Open Network Computing Remote Procedure Call (ONC RPC; sometimes referred to as Sun RPC), Tells the port mapper what port number it is using for a particular program number/version number pair on that transport protocol, IBM Knowledge Center - Ports usage.pdf
+
+TCP, 32768-65535, Provides crash and recovery functions for the locking services on NFS, Needed to mount NFS fielsystems, IBM Knowledge Center - rpc.statd
+
+UDP, 32768-65535, Provides crash and recovery functions for the locking services on NFS, Needed to mount NFS fielsystems, IBM Knowledge Center - rpc.statd
+
+UDP, 32768-65536, Daemon to capture all logs generated, Used to capture all logs generated and sends each message line to a destination described by the /etc/syslog.conf configuration file, IBM Case TS001908079 Syslog.pdf
+
+UDP, 32765-65535, Clinfo is a cluster monitoring program. It requests information about the current cluster state from the Cluster Manager, PowerHA high availability clustering. Primary and backup server protection., IBM PowerHA SystemMirror for AIX Cookbook.pdf
+
+UDP, 32765-65535, Cluster heartbeat, PowerHA provides High Availability between servers, IBM PowerHA for AIX Cookbook.pdf
+
+UDP, 32765-65535, Oracle ephemeral port, an ephemeral port number is assigned temporarily (for the duration of the request and its completion) from a range of assigned port numbers., Oracle Database Installation Guide for IBM AIX on POWER Systems (64-Bit)
+
+
+TCP, 47632, Java Oracle Agent (Oracle ephemeral port), Monitors  Oracle Databases (an ephemeral port number is assigned temporarily (for the duration of the request and its completion) from a range of assigned port numbers.), Oracle Enterprise Manager Doc ID 1474263.1.pdf
+
+UDP, 52311, BigFix Client., BigFix Client is usedo register servers to ITAM, IBM Support - BigFix Clients ports.pdf
+
+, , , , 
+
+, , , , 
+
+, , , , 
+
